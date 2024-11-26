@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.acc-body {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-direction: column;
+  margin: 1rem;
+}
+.acc-title {
+  background-color: rgb(46, 141, 229);
+  border: black;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  border-top-left-radius: 5px; /* Rounded corners for the top */
+  border-top-right-radius: 5px;
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-between; /* Distribute space between title and button */
+  align-items: center;
+}
+
+.acc-content {
+  padding: 1rem 2rem;
+  background-color: #f4f4f4;
+}
+
+.acc-btn {
+  padding: 0.5rem 1rem; /* Padding for the button */
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
